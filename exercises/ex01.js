@@ -18,8 +18,6 @@ function findMiddle(list) {
       return `Middle data is ${slowRunner.data}`
     }
   }
-
-  return slowRunner.data
 }
 
 const list = new SLL();
@@ -28,19 +26,9 @@ list.insertAtBack(2);
 list.insertAtBack(3);
 list.insertAtBack(4);
 list.insertAtBack(5);
-
-// console.log(list)
-// console.log(list.head)
-// console.log(list.head.data)
-// console.log(list.head.next)
-// console.log(list.head.data.next)
-// console.log(list.head.next.data)
-// console.log(list.head.next.next.data)
-// console.log(list.head.next.next.next.data)
-// console.log(list.head.next.next.next.next.data)
-// console.log(list.head.next.next.next.next.next.data)
+list.insertAtBack(6)
+list.insertAtBack(7)
 console.log(findMiddle(list)); // Output: 3
-// findMiddle(list)
 
 //---------------------------------------note----------------------------------------------
 // class Node {
